@@ -241,7 +241,7 @@ color: var(--brand-blue-color);
     background: var(--secondary-bg-color);
 
     transition: background-color 250ms var(--timing-function),
-    box-shadow 250ms var(--timing-function);
+    box-shadow 250ms var(--timing-function), color 250ms var(--timing-function);
 }
 
 .button-portfolio:not(last-child) {
