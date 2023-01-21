@@ -1054,8 +1054,8 @@ align-items: baseline;
     border-radius: 4px;
     border: none;
     cursor: pointer;
-
-    transition: box-shadow 250ms var(--timing-function);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: background-color 250ms var(--timing-function);
 
     padding: 10px 52px;
     display: block;
@@ -1064,7 +1064,7 @@ align-items: baseline;
 
 .submit-button:hover,
 .submit-button:focus {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    background-color: #188CE8;
 }
 
 /* ---------------MODAL---BACKDROP-------------- */
